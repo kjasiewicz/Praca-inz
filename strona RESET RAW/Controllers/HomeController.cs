@@ -13,5 +13,9 @@ namespace strona_RESET.Controllers
         {
             return View();
         }
+        public ActionResult AllNews()
+        {
+            return View();
+        }
     }
 }

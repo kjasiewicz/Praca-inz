@@ -43,6 +43,34 @@
 /*------------------------------------------*/
 /*	     01 - General & Basic Styles
 /*------------------------------------------*/
+
+.filter-button{
+    border: 1px solid;
+    font-family: Montserrat-Regular;
+    display: inline-block;
+    cursor: pointer;
+    padding: 6px 20px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    padding-left:10px;
+    padding-right:10px;
+}
+.filter-button.gray{
+    border-color: darkgray;
+    color: darkgray;
+}
+.filter-button.blue{
+    border-color: #0099ff;
+    color:#0099ff;
+}
+.filter-button.violet{
+    border-color: #660033;
+    color: #660033;
+}
+.filter-button.green{
+    border-color: #669933;
+    color: #669933;
+}
 .service-box.service-center:hover .news-icon.blue {
     color: #0099ff;
 }
