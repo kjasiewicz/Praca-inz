@@ -57,18 +57,37 @@
 }
 .filter-button.gray {
     border-color: darkgray;
-}
-.filter-button.gray >a {
-    border-color: darkgray;
     color: darkgray;
 }
+
 .filter-button.gray:hover{
     background-color: darkgray;
+    color: white;
 }
-.filter-button.gray:hover > a{
-    color: white;   
+.filter-button.blue {
+    border-color: #0099ff;
+    color:  #0099ff;
 }
-
+.filter-button.blue:hover{
+    background-color: #0099ff;
+    color: white;
+}
+.filter-button.violet {
+    border-color: #660033;
+    color:#660033;
+}
+.filter-button.violet:hover{
+    background-color: #660033;
+    color: white;
+}
+.filter-button.green {
+    border-color: #669933;
+    color:#669933;
+}
+.filter-button.green:hover{
+    background-color: #669933;
+    color: white;
+}
 
 .filter-button.blue{
     border-color: #0099ff;
