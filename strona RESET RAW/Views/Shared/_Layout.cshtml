@@ -458,6 +458,16 @@
             <div class="dot2"></div>
         </div>
     </div>
+    <script type="text/javascript" src="~/scripts/jquery.mixitup.min.js">
+    </script>
     <script type="text/javascript" src="~/scripts/script.js"></script>
+    <script>
+        $(function () {
+            $('#news').mixitup({
+                targetSelector: '.item',
+                transitionSpeed: 450
+            });
+        });
+    </script>
 </body>
 </html>

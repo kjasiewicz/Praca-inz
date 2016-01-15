@@ -51,14 +51,25 @@
     cursor: pointer;
     padding: 6px 20px;
     text-decoration: none;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding-left:10px;
     padding-right:10px;
 }
-.filter-button.gray{
+.filter-button.gray {
+    border-color: darkgray;
+}
+.filter-button.gray >a {
     border-color: darkgray;
     color: darkgray;
 }
+.filter-button.gray:hover{
+    background-color: darkgray;
+}
+.filter-button.gray:hover > a{
+    color: white;   
+}
+
+
 .filter-button.blue{
     border-color: #0099ff;
     color:#0099ff;
