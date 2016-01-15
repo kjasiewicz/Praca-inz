@@ -27,27 +27,8 @@
     <!-- Color CSS Styles  -->
     <link rel="stylesheet" type="text/css" href="~/Content/css/colors/red.css" title="red" media="screen" />
 
-    <!-- Margo JS  -->
-    <script type="text/javascript" src="~/Scripts/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript" src="~/Scripts/jquery.migrate.js"></script>
-    <script type="text/javascript" src="~/Scripts/modernizrr.js"></script>
-    <script type="text/javascript" src="~/Scripts/bootstrap.min.js"></script>
-    <script type="text/javascript" src="~/Scripts/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="~/Scripts/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="~/Scripts/nivo-lightbox.min.js"></script>
-    <script type="text/javascript" src="~/Scripts/jquery.isotope.min.js"></script>
-    <script type="text/javascript" src="~/Scripts/jquery.appear.js"></script>
-    <script type="text/javascript" src="~/Scripts/count-to.js"></script>
-    <script type="text/javascript" src="~/Scripts/jquery.textillate.js"></script>
-    <script type="text/javascript" src="~/Scripts/jquery.lettering.js"></script>
-    <script type="text/javascript" src="~/Scripts/jquery.easypiechart.min.js"></script>
-    <script type="text/javascript" src="~/Scripts/jquery.nicescroll.min.js"></script>
-    <script type="text/javascript" src="~/Scripts/jquery.parallax.js"></script>
-    <script type="text/javascript" src="~/Scripts/mediaelement-and-player.js"></script>
-    <script type="text/javascript" src="~/Scripts/jquery.slicknav.js"></script>
 
-    <!--[if IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link href="~/Content/Site.css" rel="stylesheet" />
 </head>
 <body>
     <!-- Full Body Container -->
@@ -452,21 +433,43 @@
     <!-- End Full Body Container -->
     <!-- Go To Top Link -->
     <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
-    <div id="loader">
-        <div class="spinner">
-            <div class="dot1"></div>
-            <div class="dot2"></div>
-        </div>
+<div id="loader">
+    <div class="spinner">
+        <div class="dot1"></div>
+        <div class="dot2"></div>
     </div>
-    <script type="text/javascript" src="~/scripts/jquery.mixitup.min.js">
+</div>
+    <!-- Margo JS  -->
+    <script type="text/javascript" src="~/Scripts/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.migrate.js"></script>
+    <script type="text/javascript" src="~/Scripts/modernizrr.js"></script>
+    <script type="text/javascript" src="~/Scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="~/Scripts/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/nivo-lightbox.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.appear.js"></script>
+    <script type="text/javascript" src="~/Scripts/count-to.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.textillate.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.lettering.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.easypiechart.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.parallax.js"></script>
+    <script type="text/javascript" src="~/Scripts/mediaelement-and-player.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.slicknav.js"></script>
+
+    <!--[if IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <script type="text/javascript" src="~/scripts/jquery.mixitup.js">
     </script>
     <script type="text/javascript" src="~/scripts/script.js"></script>
     <script>
         $(function () {
-            $('#news').mixitup({
-                targetSelector: '.item',
-                transitionSpeed: 450
-            });
+
+            // Instantiate MixItUp:
+            debugger;
+            $('#sortList').mixItUp();
+
         });
     </script>
 </body>
