@@ -89,18 +89,6 @@
     color: white;
 }
 
-.filter-button.blue{
-    border-color: #0099ff;
-    color:#0099ff;
-}
-.filter-button.violet{
-    border-color: #660033;
-    color: #660033;
-}
-.filter-button.green{
-    border-color: #669933;
-    color: #669933;
-}
 .service-box.service-center:hover .news-icon.blue {
     color: #0099ff;
 }
