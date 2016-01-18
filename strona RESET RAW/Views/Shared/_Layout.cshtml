@@ -119,10 +119,10 @@
                         <!-- Start Navigation List -->
                         <ul class="nav navbar-nav navbar-right">
                             <li>
-                                <a class="active" href="index.html"><i class="fa fa-home"></i></a>
+                                <a class="@((int)ViewBag.ActivePage == 0 ? "active" : "")" href="@Url.Action("Index","Home")"><i class="fa fa-home"></i></a>
                             </li>
                             <li>
-                                <a href="#">AKTUALNOŚCI</a>
+                                @Html.ActionLink("AKTUALNOŚCI", "News", "Home", null, new { @class = (int)ViewBag.ActivePage == 1 ? "active" : "" })
                             </li>
                             <li>
                                 <a href="#">ARTYKUŁY</a>
@@ -479,14 +479,6 @@
     <script type="text/javascript" src="~/scripts/jquery.mixitup.js">
     </script>
     <script type="text/javascript" src="~/scripts/script.js"></script>
-    <script>
-        $(function () {
-
-            // Instantiate MixItUp:
-            debugger;
-            $('#sortList').mixItUp();
-
-        });
-    </script>
+    <script src="~/scripts/custom.js"></script>
 </body>
 </html>

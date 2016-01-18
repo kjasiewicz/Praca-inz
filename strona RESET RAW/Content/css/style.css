@@ -60,7 +60,7 @@
     color: darkgray;
 }
 
-.filter-button.gray:hover{
+.filter-button.gray:hover, .filter-button.gray.active{
     background-color: darkgray;
     color: white;
 }
@@ -68,7 +68,7 @@
     border-color: #0099ff;
     color:  #0099ff;
 }
-.filter-button.blue:hover{
+.filter-button.blue:hover, .filter-button.blue.active{
     background-color: #0099ff;
     color: white;
 }
@@ -76,7 +76,7 @@
     border-color: #660033;
     color:#660033;
 }
-.filter-button.violet:hover{
+.filter-button.violet:hover, .filter-button.violet.active{
     background-color: #660033;
     color: white;
 }
@@ -84,7 +84,7 @@
     border-color: #669933;
     color:#669933;
 }
-.filter-button.green:hover{
+.filter-button.green:hover, .filter-button.green.active{
     background-color: #669933;
     color: white;
 }
