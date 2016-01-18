@@ -105,6 +105,7 @@
     <Content Include="Content\css\colors\sky-blue.css" />
     <Content Include="Content\css\colors\yellow.css" />
     <Content Include="Content\css\font-awesome.min.css" />
+    <Content Include="Content\css\NewsDetails.css" />
     <Content Include="Content\css\responsive.css" />
     <Content Include="Content\css\slicknav.css" />
     <Content Include="Content\css\style.css" />
@@ -376,6 +377,7 @@
     <Content Include="Content\images\Thumbs.db" />
     <Content Include="scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Home\News.cshtml" />
+    <Content Include="Views\Home\NewsDetails.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -28,7 +28,7 @@ namespace strona_RESET.Controllers
         public ActionResult News(int id)
         {
             ViewBag.ActivePage = ActivePageEnum.News;
-            return View();
+            return View("NewsDetails");
         }
     }
 }

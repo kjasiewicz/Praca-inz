@@ -1,0 +1,27 @@
+﻿.lecture-name {
+    margin-top: 50px;
+}
+
+.lecture-description {
+    margin-top: 20px;
+    
+}
+
+.calendar-icon {
+    font-size: 4em;
+    color: black;
+}
+
+.clock-icon {
+    font-size: 4em;
+    color: black;
+}
+
+.localize-icon {
+    font-size: 4em;
+    color: black;
+}
+.lecture-time-box
+{
+    margin-top: 50px;
+}
