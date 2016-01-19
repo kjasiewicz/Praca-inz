@@ -105,6 +105,8 @@
     <Content Include="Content\css\colors\sky-blue.css" />
     <Content Include="Content\css\colors\yellow.css" />
     <Content Include="Content\css\font-awesome.min.css" />
+    <Content Include="Content\css\hover-min.css" />
+    <Content Include="Content\css\hover.css" />
     <Content Include="Content\css\NewsDetails.css" />
     <Content Include="Content\css\responsive.css" />
     <Content Include="Content\css\slicknav.css" />
@@ -161,7 +163,10 @@
     <Content Include="Content\images\member02.jpg" />
     <Content Include="Content\images\member03.jpg" />
     <Content Include="Content\images\parallax\bg-01.jpg" />
+    <Content Include="Content\images\parallax\bg-01.png" />
     <Content Include="Content\images\parallax\bg-02.jpg" />
+    <Content Include="Content\images\parallax\bg-02.png" />
+    <Content Include="Content\images\parallax\bg-03.png" />
     <Content Include="Content\images\patterns\1.png" />
     <Content Include="Content\images\patterns\10.png" />
     <Content Include="Content\images\patterns\11.png" />
