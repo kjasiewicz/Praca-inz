@@ -198,7 +198,21 @@
         background-color: white;
         color: black;
     }
+    .button-reset-default.black {
+    background-color: none;
+    border: 1px solid black;
+    display: inline-block;
+    cursor: pointer;
+    padding: 6px 20px;
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+}
 
+    .button-reset-default.black:hover {
+        background-color: black;
+        color: white;
+    }
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;

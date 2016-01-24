@@ -30,5 +30,17 @@ namespace strona_RESET.Controllers
             ViewBag.ActivePage = ActivePageEnum.News;
             return View("NewsDetails");
         }
+        [Route("Galeria")]
+        public ActionResult Gallery()
+        {
+            ViewBag.ActivePage = ActivePageEnum.Home;
+            return View();
+        }
+        [Route("Galeria/{id}")]
+        public ActionResult Gallery(int id)
+        {
+            ViewBag.ActivePage = ActivePageEnum.News;
+            return View("GalleryDetails");
+        }
     }
 }

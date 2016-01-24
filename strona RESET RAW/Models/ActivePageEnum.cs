@@ -9,7 +9,8 @@ namespace strona_RESET_RAW.Models
     public enum ActivePageEnum
     {
         Home = 0,
-        News = 1
+        News = 1,
+        Gallery = 2
         
     }
 }

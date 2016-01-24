@@ -90,7 +90,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bootstrap.min.css">
+      <DependentUpon>bootstrap.css</DependentUpon>
+    </Content>
     <Content Include="Content\css\animate.css" />
     <Content Include="Content\css\colors\beige.css" />
     <Content Include="Content\css\colors\blue.css" />
@@ -105,6 +107,7 @@
     <Content Include="Content\css\colors\sky-blue.css" />
     <Content Include="Content\css\colors\yellow.css" />
     <Content Include="Content\css\font-awesome.min.css" />
+    <Content Include="Content\css\Gallery.css" />
     <Content Include="Content\css\hover-min.css" />
     <Content Include="Content\css\hover.css" />
     <Content Include="Content\css\NewsDetails.css" />
@@ -150,6 +153,7 @@
     <Content Include="Content\images\flickr-09.jpg" />
     <Content Include="Content\images\footer-margo.png" />
     <Content Include="Content\images\home %281%29.jpg" />
+    <Content Include="Content\images\konferencja_ITAD2015.jpg" />
     <Content Include="Content\images\lessons_icon.png" />
     <Content Include="Content\images\logo_itad.png" />
     <Content Include="Content\images\logo_reset.png" />
@@ -273,6 +277,34 @@
     <Content Include="Content\images\testimonials-bg.jpg" />
     <Content Include="Content\images\testimonials-bg1.jpg" />
     <Content Include="Content\images\venda-pic.png" />
+    <Content Include="Content\images\Wyklad Gallery\_DSC5504.jpg" />
+    <Content Include="Content\images\Wyklad Gallery\_DSC5505.jpg" />
+    <Content Include="Content\images\Wyklad Gallery\_DSC5507.jpg" />
+    <Content Include="Content\images\Wyklad Gallery\_DSC5513.jpg" />
+    <Content Include="Content\images\Wyklad Gallery\_DSC5515.jpg" />
+    <Content Include="Content\images\Wyklad Gallery\_DSC5517.jpg" />
+    <Content Include="Content\images\Wyklad Gallery\_DSC5518.jpg" />
+    <Content Include="Content\images\Wyklad Gallery\_DSC5520.jpg" />
+    <Content Include="Content\images\Wyklad Gallery\_DSC5523.jpg" />
+    <Content Include="Content\images\Wyklad Gallery\_DSC5525.jpg" />
+    <Content Include="Content\images\Wyklad Gallery\_DSC5526.jpg" />
+    <Content Include="Content\images\Wyklad Gallery\_DSC5527.jpg" />
+    <Content Include="Content\images\Wyklad Gallery\_DSC5528.jpg" />
+    <Content Include="Content\images\Wyklad Gallery\_DSC5529.jpg" />
+    <Content Include="Content\images\Wyklad Gallery\_DSC5530.jpg" />
+    <Content Include="Content\images\Wyklad Gallery\_DSC5532.jpg" />
+    <Content Include="Content\images\Wyklad Gallery\_DSC5533.jpg" />
+    <Content Include="Content\images\Wyklad Gallery\_DSC5534.jpg" />
+    <Content Include="Content\images\Wyklad Gallery\_DSC5535.jpg" />
+    <Content Include="Content\images\Wyklad Gallery\_DSC5536.jpg" />
+    <Content Include="Content\images\Wyklad Gallery\_DSC5539.jpg" />
+    <Content Include="Content\images\Wyklad Gallery\_DSC5542.jpg" />
+    <Content Include="Content\images\Wyklad Gallery\_DSC5543.jpg" />
+    <Content Include="Content\images\Wyklad Gallery\_DSC5544.jpg" />
+    <Content Include="Content\images\Wyklad Gallery\_DSC5547.jpg" />
+    <Content Include="Content\images\Wyklad Gallery\_DSC5551.jpg" />
+    <Content Include="Content\images\wyklad_JCommerce.jpg" />
+    <Content Include="Content\images\wyklad_WWrobel.jpg" />
     <Content Include="Content\Site.css" />
     <Content Include="Favicons\android-icon-144x144.png" />
     <Content Include="Favicons\android-icon-192x192.png" />
@@ -320,6 +352,7 @@
     <Content Include="Content\fonts\Montserrat-SemiBold.otf" />
     <Content Include="Content\fonts\Montserrat-UltraLight.otf" />
     <Content Include="Favicons\manifest.json" />
+    <None Include="bundleconfig.json" />
     <None Include="scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="scripts\jquery-1.10.2.js" />
     <Content Include="scripts\jquery-1.10.2.min.js" />
@@ -379,10 +412,11 @@
     <Content Include="Content\images\portfolio\Thumbs.db" />
     <Content Include="Content\images\slider\Thumbs.db" />
     <Content Include="Content\images\team\Thumbs.db" />
-    <Content Include="Content\images\Thumbs.db" />
     <Content Include="scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Home\News.cshtml" />
     <Content Include="Views\Home\NewsDetails.cshtml" />
+    <Content Include="Views\Home\Gallery.cshtml" />
+    <Content Include="Views\Home\GalleryDetails.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

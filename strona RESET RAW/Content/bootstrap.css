@@ -4645,7 +4645,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
   display: inline-block;
   padding-left: 0;
   margin: 20px 0;
-  border-radius: 4px;
 }
 
 .pagination > li {
@@ -4660,8 +4659,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
   margin-left: -1px;
   line-height: 1.428571429;
   text-decoration: none;
-  background-color: #ffffff;
-  border: 1px solid #dddddd;
+  color: black;
+
 }
 
 .pagination > li:first-child > a,
@@ -4681,7 +4680,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .pagination > li > span:hover,
 .pagination > li > a:focus,
 .pagination > li > span:focus {
-  background-color: #eeeeee;
+  background-color: black;
+  color: white;
 }
 
 .pagination > .active > a,
@@ -4693,8 +4693,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   z-index: 2;
   color: #ffffff;
   cursor: default;
-  background-color: #428bca;
-  border-color: #428bca;
+  background-color: black;
 }
 
 .pagination > .disabled > span,
@@ -4704,7 +4703,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
   color: #999999;
   cursor: not-allowed;
   background-color: #ffffff;
-  border-color: #dddddd;
 }
 
 .pagination-lg > li > a,
