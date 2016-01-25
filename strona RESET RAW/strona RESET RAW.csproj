@@ -354,6 +354,10 @@
     <Content Include="Favicons\manifest.json" />
     <None Include="bundleconfig.json" />
     <None Include="scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="scripts\gallery\customGallery.js" />
+    <Content Include="scripts\gallery\jquery.magnific-popup.js" />
+    <Content Include="scripts\gallery\jquery.magnific-popup.min.js" />
+    <Content Include="Content\magnific-popup.css" />
     <Content Include="scripts\jquery-1.10.2.js" />
     <Content Include="scripts\jquery-1.10.2.min.js" />
     <Content Include="scripts\jquery-2.1.4.min.js" />
@@ -426,7 +430,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="scripts\js\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

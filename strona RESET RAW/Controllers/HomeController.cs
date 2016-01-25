@@ -24,8 +24,9 @@ namespace strona_RESET.Controllers
             return View();
         }
 
-        [Route("Aktualnosci/{id}")]
-        public ActionResult News(int id)
+        [Route("Aktualnosci/{newsId}", Name = "NewsRoute")]
+
+        public ActionResult News(int newsId)
         {
             ViewBag.ActivePage = ActivePageEnum.News;
             return View("NewsDetails");
@@ -33,13 +34,14 @@ namespace strona_RESET.Controllers
         [Route("Galeria")]
         public ActionResult Gallery()
         {
-            ViewBag.ActivePage = ActivePageEnum.Home;
+            ViewBag.ActivePage = ActivePageEnum.Gallery;
             return View();
         }
-        [Route("Galeria/{id}")]
+
+        [Route("Galeria/{id}", Name = "GalleryRoute")]
         public ActionResult Gallery(int id)
         {
-            ViewBag.ActivePage = ActivePageEnum.News;
+            ViewBag.ActivePage = ActivePageEnum.Gallery;
             return View("GalleryDetails");
         }
     }
