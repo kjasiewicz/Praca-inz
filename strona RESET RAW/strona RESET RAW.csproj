@@ -111,7 +111,10 @@
     <Content Include="Content\css\Gallery.css" />
     <Content Include="Content\css\hover-min.css" />
     <Content Include="Content\css\hover.css" />
+    <Content Include="Content\css\hoverex-all.css" />
     <Content Include="Content\css\NewsDetails.css" />
+    <Content Include="Content\css\prettyPhoto.css" />
+    <Content Include="Content\css\Projects.css" />
     <Content Include="Content\css\responsive.css" />
     <Content Include="Content\css\slicknav.css" />
     <Content Include="Content\css\style.css" />
@@ -261,6 +264,17 @@
     <Content Include="Content\images\portfolio\portfolio-img5.jpg" />
     <Content Include="Content\images\portfolio\portfolio-img6.jpg" />
     <Content Include="Content\images\poster.jpg" />
+    <Content Include="Content\images\Projects\content_img.png" />
+    <Content Include="Content\images\Projects\portfolio_01.jpg" />
+    <Content Include="Content\images\Projects\portfolio_02.jpg" />
+    <Content Include="Content\images\Projects\portfolio_03.jpg" />
+    <Content Include="Content\images\Projects\portfolio_04.jpg" />
+    <Content Include="Content\images\Projects\portfolio_05.jpg" />
+    <Content Include="Content\images\Projects\portfolio_06.jpg" />
+    <Content Include="Content\images\Projects\portfolio_07.jpg" />
+    <Content Include="Content\images\Projects\portfolio_08.jpg" />
+    <Content Include="Content\images\Projects\portfolio_09.jpg" />
+    <Content Include="Content\images\Projects\portfolio_10.jpg" />
     <Content Include="Content\images\service-01.jpg" />
     <Content Include="Content\images\service-02.jpg" />
     <Content Include="Content\images\service-03.jpg" />
@@ -431,6 +445,7 @@
     <Content Include="Views\Home\Gallery.cshtml" />
     <Content Include="Views\Home\GalleryDetails.cshtml" />
     <Content Include="Views\Home\Core.cshtml" />
+    <Content Include="Views\Home\Projects.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
