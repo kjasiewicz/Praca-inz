@@ -46,7 +46,7 @@
 
 .filter-button{
     border: 1px solid;
-    font-family: Montserrat-Regular;
+    font-family: 'Segoe UI';
     display: inline-block;
     cursor: pointer;
     padding: 6px 20px;
@@ -54,6 +54,7 @@
     margin-bottom: 10px;
     padding-left:10px;
     padding-right:10px;
+    font-size: 24px;
 }
 .filter-button.gray {
     border-color: darkgray;
@@ -180,6 +181,11 @@
 .reset-font-small {
     font-family: Montserrat-Regular;
     font-size: 16px;
+    color: black;
+}
+.reset-font-extra-small {
+    font-family: Montserrat-Regular;
+    font-size: 14px;
     color: black;
 }
 

@@ -44,5 +44,12 @@ namespace strona_RESET.Controllers
             ViewBag.ActivePage = ActivePageEnum.Gallery;
             return View("GalleryDetails");
         }
+
+        [Route("Kontakt")]
+        public ActionResult Core()
+        {
+            ViewBag.ActivePage = ActivePageEnum.News;
+            return View();
+        }
     }
 }

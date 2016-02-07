@@ -106,6 +106,7 @@
     <Content Include="Content\css\colors\red.css" />
     <Content Include="Content\css\colors\sky-blue.css" />
     <Content Include="Content\css\colors\yellow.css" />
+    <Content Include="Content\css\Contact.css" />
     <Content Include="Content\css\font-awesome.min.css" />
     <Content Include="Content\css\Gallery.css" />
     <Content Include="Content\css\hover-min.css" />
@@ -141,6 +142,14 @@
     <Content Include="Content\images\c7.png" />
     <Content Include="Content\images\c8.png" />
     <Content Include="Content\images\conference_icon.png" />
+    <Content Include="Content\images\Contact\Czlonkowie_Artur.png" />
+    <Content Include="Content\images\Contact\Czlonkowie_Bartosz.png" />
+    <Content Include="Content\images\Contact\Czlonkowie_Damian.png" />
+    <Content Include="Content\images\Contact\Czlonkowie_TomaszK.png" />
+    <Content Include="Content\images\Contact\Zarzad_Kasia.png" />
+    <Content Include="Content\images\Contact\Zarzad_Marcin.png" />
+    <Content Include="Content\images\Contact\Zarzad_Szymon.png" />
+    <Content Include="Content\images\Contact\Zarzad_TomaszG.png" />
     <Content Include="Content\images\favicon.png" />
     <Content Include="Content\images\flickr-01.jpg" />
     <Content Include="Content\images\flickr-02.jpg" />
@@ -421,6 +430,7 @@
     <Content Include="Views\Home\NewsDetails.cshtml" />
     <Content Include="Views\Home\Gallery.cshtml" />
     <Content Include="Views\Home\GalleryDetails.cshtml" />
+    <Content Include="Views\Home\Core.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
