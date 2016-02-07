@@ -48,15 +48,22 @@ namespace strona_RESET.Controllers
         [Route("Kontakt")]
         public ActionResult Core()
         {
-            ViewBag.ActivePage = ActivePageEnum.News;
+            ViewBag.ActivePage = ActivePageEnum.Core;
             return View();
         }
 
         [Route("Projekty")]
         public ActionResult Projects()
         {
-            ViewBag.ActivePage = ActivePageEnum.News;
+            ViewBag.ActivePage = ActivePageEnum.Projects;
             return View();
+        }
+
+        [Route("Projekty/{id}", Name = "ProjectRoute")]
+        public ActionResult Projects(int id)
+        {
+            ViewBag.ActivePage = ActivePageEnum.Projects;
+            return View("ProjectsDetails");
         }
     }
 }

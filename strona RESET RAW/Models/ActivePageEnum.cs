@@ -11,7 +11,8 @@ namespace strona_RESET_RAW.Models
         Home = 0,
         News = 1,
         Gallery = 2,
-        Core = 3
+        Core = 3,
+        Projects = 4
         
     }
 }

@@ -143,12 +143,10 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">PROJEKTY</a>
+                                @Html.ActionLink("PROJEKTY", "Projects", "Home", null, new { @class = (int)ViewBag.ActivePage == 4 ? "active" : "" })
                             </li>
                             <li>
                                 @Html.ActionLink("KONTAKT", "Core", "Home", null, new { @class = (int)ViewBag.ActivePage == 3 ? "active" : "" })
-
-
                             </li>
                         </ul>
                         <!-- End Navigation List -->

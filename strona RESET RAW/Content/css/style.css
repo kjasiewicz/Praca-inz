@@ -6132,7 +6132,13 @@ ul.footer-nav {
     padding: 100px 0;
     margin: 20px 0;
   }
-
+.purchase4 {
+    background: url(../images/Projects/utwisted_bg.png);
+    background-attachment: fixed;
+    background-position: 50% 30%;
+    padding: 250px 0;
+    margin: 20px 0;
+  }
 .navbar-collapse {
     max-height: 340px;
 }

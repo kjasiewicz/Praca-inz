@@ -275,6 +275,9 @@
     <Content Include="Content\images\Projects\portfolio_08.jpg" />
     <Content Include="Content\images\Projects\portfolio_09.jpg" />
     <Content Include="Content\images\Projects\portfolio_10.jpg" />
+    <Content Include="Content\images\Projects\untwisted_screen.png" />
+    <Content Include="Content\images\Projects\utwisted_bg.png" />
+    <Content Include="Content\images\Projects\utwisted_logo.png" />
     <Content Include="Content\images\service-01.jpg" />
     <Content Include="Content\images\service-02.jpg" />
     <Content Include="Content\images\service-03.jpg" />
@@ -446,6 +449,7 @@
     <Content Include="Views\Home\GalleryDetails.cshtml" />
     <Content Include="Views\Home\Core.cshtml" />
     <Content Include="Views\Home\Projects.cshtml" />
+    <Content Include="Views\Home\ProjectsDetails.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
