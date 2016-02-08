@@ -12,7 +12,8 @@ namespace strona_RESET_RAW.Models
         News = 1,
         Gallery = 2,
         Core = 3,
-        Projects = 4
+        Projects = 4,
+        Events = 5
         
     }
 }

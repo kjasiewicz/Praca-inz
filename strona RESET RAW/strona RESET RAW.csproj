@@ -107,6 +107,7 @@
     <Content Include="Content\css\colors\sky-blue.css" />
     <Content Include="Content\css\colors\yellow.css" />
     <Content Include="Content\css\Contact.css" />
+    <Content Include="Content\css\Events.css" />
     <Content Include="Content\css\font-awesome.min.css" />
     <Content Include="Content\css\Gallery.css" />
     <Content Include="Content\css\hover-min.css" />
@@ -151,8 +152,12 @@
     <Content Include="Content\images\Contact\Czlonkowie_TomaszK.png" />
     <Content Include="Content\images\Contact\Zarzad_Kasia.png" />
     <Content Include="Content\images\Contact\Zarzad_Marcin.png" />
+    <Content Include="Content\images\Contact\Zarzad_PawełF.png" />
     <Content Include="Content\images\Contact\Zarzad_Szymon.png" />
     <Content Include="Content\images\Contact\Zarzad_TomaszG.png" />
+    <Content Include="Content\images\Events\from_zero_to_dev_hero_img.png" />
+    <Content Include="Content\images\Events\itad_img.png" />
+    <Content Include="Content\images\Events\webb_img.png" />
     <Content Include="Content\images\favicon.png" />
     <Content Include="Content\images\flickr-01.jpg" />
     <Content Include="Content\images\flickr-02.jpg" />
@@ -450,6 +455,7 @@
     <Content Include="Views\Home\Core.cshtml" />
     <Content Include="Views\Home\Projects.cshtml" />
     <Content Include="Views\Home\ProjectsDetails.cshtml" />
+    <Content Include="Views\Home\Events.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

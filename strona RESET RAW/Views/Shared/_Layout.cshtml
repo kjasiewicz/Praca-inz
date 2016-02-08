@@ -132,7 +132,7 @@
                                 <a href="#">WYDARZENIA</a>
                                 <ul class="dropdown">
                                     <li>
-                                        <a href="#">2016</a>
+                                        @Html.ActionLink("2016", "Events", "Home", null, new { @class = (int)ViewBag.ActivePage == 5 ? "active" : "" })
                                     </li>
                                     <li>
                                         <a href="#">2015</a>

@@ -65,5 +65,11 @@ namespace strona_RESET.Controllers
             ViewBag.ActivePage = ActivePageEnum.Projects;
             return View("ProjectsDetails");
         }
+        [Route("Wydarzenia")]
+        public ActionResult Events()
+        {
+            ViewBag.ActivePage = ActivePageEnum.Events;
+            return View();
+        }
     }
 }
